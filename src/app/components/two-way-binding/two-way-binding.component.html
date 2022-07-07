@@ -1,0 +1,13 @@
+<div class="class">
+    <h2>Tow Way Binding</h2>
+    <form>
+        <input type="text" name="name" id="" [(ngModel)]="name" placeholder="Digite o seu nome">
+        <br><br>
+        <input type="text" name="sobrenome" id="" [(ngModel)]="sobrenome" placeholder="Digite o seu sobrenome">
+        <br><br>
+        <input type="submit" value="Enviar">
+    </form>
+    <div *ngIf="name !== '' || sobrenome !== ''">
+        <p>O nome é {{ name }} {{ sobrenome }}</p>
+    </div>
+</div>

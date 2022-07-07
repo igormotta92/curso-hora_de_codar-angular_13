@@ -1,0 +1,11 @@
+[aula]: https://youtu.be/RXcKea_sFy0?list=PLnDvRpP8Bnex2GQEN0768_AxZg_RaIGmw&t=1
+
+# Repositório 
+https://github.com/matheusbattisti/curso_angular_yt
+
+-- ng --
+
+# criar componente
+ng generate component <nome>
+e.g: ng generate component components/first-component
+
