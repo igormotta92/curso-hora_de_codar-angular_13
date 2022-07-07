@@ -1,0 +1,15 @@
+Aula: https://www.youtube.com/watch?v=87FQ-hcmAa0&list=PLnDvRpP8Bnex2GQEN0768_AxZg_RaIGmw&index=24
+
+## backend
+
+# configuração inicialização do projeto
+node ace generate:key 
+node ace migration:run
+
+# iniciar serviço
+npm ace serve
+
+## front
+
+# iniciar serviço
+npm start
