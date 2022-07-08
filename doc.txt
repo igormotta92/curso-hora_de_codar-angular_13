@@ -1,4 +1,4 @@
-Aula: https://www.youtube.com/watch?v=87FQ-hcmAa0&list=PLnDvRpP8Bnex2GQEN0768_AxZg_RaIGmw&index=24
+Aula #29: https://youtu.be/2KrNZ2zBYes?list=PLnDvRpP8Bnex2GQEN0768_AxZg_RaIGmw&t=141
 
 ## backend
 
@@ -13,3 +13,12 @@ npm ace serve
 
 # iniciar serviço
 npm start
+
+# Criando components
+npx ng generate component component/header
+npx ng generate component component/footer
+npx ng generate component component/page/about
+npx ng generate component component/page/home
+npx ng generate component component/moment-form
+
+npx ng generate service service/moment  
